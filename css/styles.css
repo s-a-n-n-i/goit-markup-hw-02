@@ -1,14 +1,63 @@
 :root {
     --primary-text-color: #757575;
-
-    
+    --primary-title-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --active-color: #2196F3;
+    --header-logo-color: #000000;
+    --background-dark-color: #2F303A;
 }
 
 body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* header */
+/* logo */
 .header {
 
 }
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.part-logo {
+    color: var(--active-color);
+}
+
+.header-logo {
+    color: var(--header-logo-color);
+}
+
+.footer-logo {
+    color: var(--primary-white-color);
+}
+
+
+/* Navigation */
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--primary-title-color);
+}
+
+.active {
+    color: var(--active-color);
+}
+
