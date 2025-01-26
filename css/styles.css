@@ -10,6 +10,16 @@
     --portfolio-filter-button-text-color: rgba(33, 33, 33, 1);
 }
 
+/*!TODO: You should also apply box-sizing prop for all elements with star operator
+
+*,
+*::after,
+*::before{
+box-sizing:border-box;
+}
+
+*/
+
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -19,13 +29,22 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*!TODO: use selectore by tag ul. And then delete all list classes in html */
 .list {
     list-style: none;
 }
 
+/*!TODO: use selectore by tag a. Same */
 .link {
     text-decoration: none;
 }
+
+/* TODO: also add some default styles for buttons. like border:none, and cursor poiner, for input same */
+
+
+/* TODO: also add some default styles for img. max-width:100%
+
+Very important display:block. Read why*/
 
 /* header */
 /* logo */
@@ -98,6 +117,8 @@ body {
 
 }
 
+/* TODO: dont forget about cursor poiner look at the begining of file */
+
 .solution-button {
     color: var(--primary-white-color);
     background-color: var(--active-color);
@@ -108,6 +129,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+
+/* TODO: If you have some basic styles for all sections, you may create class section, same for titles, */
 
 /* benefits */
 .benefits {
@@ -132,6 +155,7 @@ body {
 
 /* services & team */
 
+/* TODO: just title ? */
 .title {
     color: var(--primary-title-color);
     font-weight: 700;
