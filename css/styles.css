@@ -10,6 +10,12 @@
     --portfolio-filter-button-text-color: rgba(33, 33, 33, 1);
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -19,19 +25,17 @@ body {
     letter-spacing: 0.03em;
 }
 
-.list {
+ul {
     list-style: none;
 }
 
-.link {
+a {
     text-decoration: none;
 }
 
 /* header */
 /* logo */
-.header {
-
-}
+.header {}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -62,7 +66,7 @@ body {
 
 .nav-link:hover {
     color: var(--active-color);
-} 
+}
 
 .active {
     color: var(--active-color);
@@ -73,7 +77,7 @@ body {
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover {
@@ -107,12 +111,12 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
+    border-style: none;
 }
 
 /* benefits */
-.benefits {
-    
-}
+.benefits {}
 
 .benefits-list-title {
     color: var(--primary-title-color);
@@ -137,7 +141,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
-    text-align:  center;
+    text-align: center;
 
 }
 
@@ -172,7 +176,7 @@ body {
 
 .footer-contact {
     color: var(--footer-contact-color);
-    
+
 }
 
 .address-text {
@@ -189,6 +193,8 @@ body {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
+    cursor: pointer;
+    border-style: none;
 }
 
 .filter-button:hover {
